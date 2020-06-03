@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.fdmgroup.fdmazon.dao.OrderServicesImpTest
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.117 sec - in com.fdmgroup.fdmazon.dao.OrderServicesImpTest
