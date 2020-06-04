@@ -3,6 +3,6 @@ response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate"); // H
 response.setHeader("Pragma", "no-cache"); // HTTP 1.0.
 if(session.getAttribute("sessionId")==null)
 {
-    out.println("<script>parent.location.href='/index.jsp'</script>");
+    out.println("<script>parent.location.href='/fdmazon/index.jsp'</script>");
 }
 %>

@@ -17,7 +17,7 @@
 	for (OrderProduct op : order.getOrderProductList()){
 		out.print("<tr><td>" + op.getProduct().getCategory() + "</td>");
 		out.print("<td class=\"center\">" + op.getProduct().getProductId() + "</td>");
-		out.print("<td><a href=\"/productLinkC?link=" + op.getProduct().getProductId() + "\">"+ op.getProduct().getProductName() + "</a></td>");
+		out.print("<td><a href=\"/fdmazon/productLinkC?link=" + op.getProduct().getProductId() + "\">"+ op.getProduct().getProductName() + "</a></td>");
 		out.print("<td>&pound; " + df.format(op.getProduct().getProductPrice()) + "</td>");			
 		out.print("<td class=\"center\">" + op.getQuantity() + "</td>");
 		out.print("<td>&pound; " + df.format(op.getProduct().getProductPrice() * op.getQuantity()) + "</td>");

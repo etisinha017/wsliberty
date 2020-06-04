@@ -23,6 +23,6 @@
 		out.print("<tr><td>" + o.getOrderedDateTime() + "</td>");
 		out.print("<td>" + o.getOrderId()+ "</td>");
 		out.print("<td>" + orderStatus + "</td>");
-		out.print("<td><a href=\"/orderDetailsC?linkOD=" + o.getOrderId() + "\">View order details</a></td></tr>");
+		out.print("<td><a href=\"/fdmazon/orderDetailsC?linkOD=" + o.getOrderId() + "\">View order details</a></td></tr>");
 	}
 %>

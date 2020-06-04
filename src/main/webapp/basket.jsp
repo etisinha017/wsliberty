@@ -9,7 +9,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<link rel="stylesheet" type="text/css" href="/styles/fdmcss.css" />
+<link rel="stylesheet" type="text/css" href="/fdmazon/styles/fdmcss.css" />
 <title>FDMazon</title>
 </head>
 <script type="text/javascript">	function checkStock(quantity){
@@ -30,7 +30,7 @@
 			<div id="content2"></div>
 
 			<div id="content3" style="width: 80%;">
-				<form action="/basketC" method="post" style="width: 100%;"
+				<form action="/fdmazon/basketC" method="post" style="width: 100%;"
 					onsubmit="return checkForm(this);">
 					<fieldset style="border-color: orange;">
 						<legend class="large">
@@ -60,7 +60,7 @@
 								for (OrderProduct op : order.getOrderProductList()) {
 									out.print("<tr><td>" + op.getProduct().getCategory() + "</td>");
 									out.print("<td class=\"center\">" + op.getProduct().getProductId() + "</td>");
-									out.print("<td><a href=\"/productLinkC?link=" + op.getProduct().getProductId() + "\">"
+									out.print("<td><a href=\"/fdmazon/productLinkC?link=" + op.getProduct().getProductId() + "\">"
 											+ op.getProduct().getProductName() + "</a></td>");
 									out.print("<td>&pound; " + df.format(op.getProduct().getProductPrice()) + "</td>");
 									out.print("<td class=\"center\"><input size=\"2\" type=\"text\" name="
@@ -80,7 +80,7 @@
 					</fieldset>
 				</form>
 				<br /> <br />
-				<form action="/checkoutC" method="post">
+				<form action="/fdmazon/checkoutC" method="post">
 					<input class="large" type="submit" value="Checkout">
 				</form>
 			</div>

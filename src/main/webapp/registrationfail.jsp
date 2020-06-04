@@ -5,9 +5,9 @@
 <html>
 
 <head>
-<meta http-equiv="refresh" content="3;url=/registration.jsp" />
+<meta http-equiv="refresh" content="3;url=/fdmazon/registration.jsp" />
 <title>FDMazon</title>
-<link rel="stylesheet" type="text/css" href="/styles/fdmcss.css" />
+<link rel="stylesheet" type="text/css" href="/fdmazon/styles/fdmcss.css" />
 </head>
 
 <body>

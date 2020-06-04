@@ -7,7 +7,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>FDMazon</title>
-<link rel="stylesheet" type="text/css" href="/styles/fdmcss.css" />
+<link rel="stylesheet" type="text/css" href="/fdmazon/styles/fdmcss.css" />
 </head>
 
 <script>
@@ -56,7 +56,7 @@
 			</div>
 
 			<div id="content3" style="width: 80%;">
-				<form action="/registrationFormC" method="post"
+				<form action="/fdmazon/registrationFormC" method="post"
 					onsubmit="return checkForm(this);">
 					<fieldset style="border-color: orange;">
 						<legend class="large">
@@ -141,7 +141,7 @@
 								<td><input class="large" type="submit"
 									value="Create your FDMazon account">
 									<p class="small">
-										<a href="/tnc.jsp">By signing in you agree to
+										<a href="/fdmazon/tnc.jsp">By signing in you agree to
 											FDMazon's Conditions of Use and Sale, Privacy Notice and
 											Cookies and Internet Advertising.</a>
 									</p></td>

@@ -8,9 +8,9 @@
 	int i = 0;
 	while(it.hasNext() && i<10){
 		Product e = (Product) it.next();
-		out.print("<div class=\"listproduct\"><a href=\"/productLinkC?link="+e.getProductId()+"\">");
+		out.print("<div class=\"listproduct\"><a href=\"/fdmazon/productLinkC?link="+e.getProductId()+"\">");
 	 	out.print("<img src=\""+e.getProductImg()+"\"></img></a>");
-		out.print("<br><a href=\"/productLinkC?link="+e.getProductId()+"\">");
+		out.print("<br><a href=\"/fdmazon/productLinkC?link="+e.getProductId()+"\">");
 	 	out.print(e.getProductName()+"</a>");
 	 	out.print("<br>&pound"+e.getProductPrice()+"</div>");
 	 	i++;

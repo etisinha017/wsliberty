@@ -2,14 +2,14 @@
 	pageEncoding="ISO-8859-1"%>
 <%@ page errorPage="errorpage.jsp"%>
 <% if(!session.getAttribute("sessionId").equals(session.getAttribute("admin"))) {
-    out.println("<script>parent.location.href='/index.jsp'</script>"); }%>
+    out.println("<script>parent.location.href='/fdmazon/index.jsp'</script>"); }%>
 <!DOCTYPE html>
 <html>
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>FDMazon</title>
-<link rel="stylesheet" type="text/css" href="/styles/fdmcss.css" />
+<link rel="stylesheet" type="text/css" href="/fdmazon/styles/fdmcss.css" />
 </head>
 
 <body>
@@ -29,7 +29,7 @@
 			</div>
 
 			<div id="content3" style="width: 80%;">
-				<form action="/addProductC" method="post" >
+				<form action="/fdmazon/addProductC" method="post" >
 					<fieldset style="border-color: orange;">
 						<legend class="large">
 							<b>Add/Remove Products</b>
@@ -82,7 +82,7 @@
 				</form>
 				<br/>
 				<br/>
-				<form action="/removeProductC" method="post" >
+				<form action="/fdmazon/removeProductC" method="post" >
 					<fieldset style="border-color: orange;">
 						<legend class="large">
 							<b>Remove Products</b>

@@ -8,7 +8,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>FDMazon</title>
-<link rel="stylesheet" type="text/css" href="/styles/fdmcss.css" />
+<link rel="stylesheet" type="text/css" href="/fdmazon/styles/fdmcss.css" />
 </head>
 
 <script>
@@ -54,7 +54,7 @@ function checkPassword(str) {
 		<div class="notdisplay" id="content2"></div>
 
 		<div id="content3" style="width: 80%;">
-			<form action="/editAccountC" method="post" onsubmit="return checkForm(this);">
+			<form action="/fdmazon/editAccountC" method="post" onsubmit="return checkForm(this);">
 				<fieldset style="border-color: orange;">
 					<legend class="large">
 						<b>Update Account Details</b>
