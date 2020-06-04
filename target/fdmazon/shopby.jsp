@@ -9,7 +9,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>FDMazon</title>
-<link rel="stylesheet" type="text/css" href="/fdmazon/styles/fdmcss.css" />
+<link rel="stylesheet" type="text/css" href="/styles/fdmcss.css" />
 </head>
 
 <body>
@@ -33,9 +33,9 @@
 				DecimalFormat df = new DecimalFormat("###,###,##0.00");
 				List<Product> filteredProductList =(List<Product>)request.getAttribute("fProductList");
 				for (Product e: filteredProductList){
-					out.print("<div class=\"listproduct\"><a href=\"/fdmazon/productLinkC?link="+e.getProductId()+"\">");
+					out.print("<div class=\"listproduct\"><a href=\"/productLinkC?link="+e.getProductId()+"\">");
 				 	out.print("<img src=\""+e.getProductImg()+"\"></img></a>");
-					out.print("<br><a href=\"/fdmazon/productLinkC?link="+e.getProductId()+"\">");
+					out.print("<br><a href=\"/productLinkC?link="+e.getProductId()+"\">");
 				 	out.print(e.getProductName()+"</a>");
 				 	out.print("<br>&pound "+df.format(e.getProductPrice())+"</div>"); 	
 				}

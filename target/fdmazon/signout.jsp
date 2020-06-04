@@ -4,9 +4,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="refresh" content="3;url=/fdmazon/index.jsp" />
+<meta http-equiv="refresh" content="3;url=/index.jsp" />
 <title>FDMazon</title>
-<link rel="stylesheet" type="text/css" href="/fdmazon/styles/fdmcss.css" />
+<link rel="stylesheet" type="text/css" href="/styles/fdmcss.css" />
 </head>
 <body>
 	<header>

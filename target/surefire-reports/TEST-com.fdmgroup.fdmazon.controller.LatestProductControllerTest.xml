@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.fdmgroup.fdmazon.controller.LatestProductControllerTest" time="0.018" tests="3" errors="0" skipped="0" failures="0">
+<testsuite name="com.fdmgroup.fdmazon.controller.LatestProductControllerTest" time="0.027" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
     <property name="java.vm.version" value="25.252-b09"/>
     <property name="java.vm.vendor" value="Private Build"/>
-    <property name="maven.multiModuleProjectDirectory" value="/home/deerag323/wsliberty"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/etisinha017/wsliberty"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/deerag323/wsliberty"/>
+    <property name="user.dir" value="/home/etisinha017/wsliberty"/>
     <property name="java.runtime.version" value="1.8.0_252-8u252-b09-1~16.04-b09"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed"/>
@@ -58,7 +58,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testDoGetHttpServletRequestHttpServletResponse_WhenProductListSizeMoreThanpNo" classname="com.fdmgroup.fdmazon.controller.LatestProductControllerTest" time="0.016"/>
-  <testcase name="testDoGetHttpServletRequestHttpServletResponse_WhenProductListSizeLessThanpNo" classname="com.fdmgroup.fdmazon.controller.LatestProductControllerTest" time="0.001"/>
-  <testcase name="testDoGetHttpServletRequestHttpServletResponse_WhenWelcomeFlagNotNull" classname="com.fdmgroup.fdmazon.controller.LatestProductControllerTest" time="0.001"/>
+  <testcase name="testDoGetHttpServletRequestHttpServletResponse_WhenProductListSizeMoreThanpNo" classname="com.fdmgroup.fdmazon.controller.LatestProductControllerTest" time="0.019"/>
+  <testcase name="testDoGetHttpServletRequestHttpServletResponse_WhenProductListSizeLessThanpNo" classname="com.fdmgroup.fdmazon.controller.LatestProductControllerTest" time="0.004"/>
+  <testcase name="testDoGetHttpServletRequestHttpServletResponse_WhenWelcomeFlagNotNull" classname="com.fdmgroup.fdmazon.controller.LatestProductControllerTest" time="0.004"/>
 </testsuite>
