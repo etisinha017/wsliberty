@@ -8,7 +8,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>FDMazon</title>
-<link rel="stylesheet" type="text/css" href="/fdmazon/styles/fdmcss.css" />
+<link rel="stylesheet" type="text/css" href="/styles/fdmcss.css" />
 </head>
 
 <script>
@@ -42,7 +42,7 @@
 			</div>
 
 			<div id="content3" style="width: 80%;">
-				<form action="/fdmazon/checkout1C" method="post" onsubmit="return checkForm(this);">
+				<form action="/checkout1C" method="post" onsubmit="return checkForm(this);">
 					<fieldset style="border-color: orange;">
 						<legend class="large">
 							<b>Recipient Details</b>

@@ -6,7 +6,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<link rel="stylesheet" type="text/css" href="/fdmazon/styles/fdmcss.css" />
+<link rel="stylesheet" type="text/css" href="/styles/fdmcss.css" />
 <title>FDMazon</title>
 </head>
 
@@ -25,7 +25,7 @@
 			<div id="content2"></div>
 
 			<div id="content3" style="width: 80%;">
-				<form action="/fdmazon/orderConfirmationC" method="post" style="width: 100%;">
+				<form action="/orderConfirmationC" method="post" style="width: 100%;">
 					<fieldset style="border-color: orange;">
 						<legend class="large"><b></b></legend>
 						<%@include file="checkoutdetails.jsp" %>

@@ -6,7 +6,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>FDMazon</title>
-<link rel="stylesheet" type="text/css"	href="/fdmazon/styles/fdmcss.css" />
+<link rel="stylesheet" type="text/css"	href="/styles/fdmcss.css" />
 </head>
 <body>
 	<header>
@@ -23,7 +23,7 @@
 		</div>
 
 		<div id="content2">
-			<h4><a href="/fdmazon/home.jsp">Click here to go to the home page.</a></h4>
+			<h4><a href="/home.jsp">Click here to go to the home page.</a></h4>
 		</div>
 
 		<div id="content3">

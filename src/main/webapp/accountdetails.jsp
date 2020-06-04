@@ -6,7 +6,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<link rel="stylesheet" type="text/css" href="/fdmazon/styles/fdmcss.css" />
+<link rel="stylesheet" type="text/css" href="/styles/fdmcss.css" />
 <title>FDMazon</title>
 </head>
 
@@ -27,7 +27,7 @@
 			</div>
 
 			<div id="content3" style="width: 80%;">
-				<form action="/fdmazon/accountDetailsC" method="GET"
+				<form action="/accountDetailsC" method="GET"
 					style="width: auto;">
 					<fieldset style="border-color: orange;">
 						<legend class="large">
